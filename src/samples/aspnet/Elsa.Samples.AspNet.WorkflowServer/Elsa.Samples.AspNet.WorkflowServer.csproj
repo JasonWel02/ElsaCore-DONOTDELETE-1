@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\test\component\Elsa.ProtoCluster.ComponentTests\Elsa.ProtoCluster.ComponentTests.csproj" />
+      <ProjectReference Include="..\..\..\..\test\integration\Elsa.IntegrationTests\Elsa.IntegrationTests.csproj" />
+      <ProjectReference Include="..\..\..\..\test\unit\Elsa.JavaScript.UnitTests\Elsa.JavaScript.UnitTests.csproj" />
+      <ProjectReference Include="..\..\..\..\test\unit\Elsa.Workflows.Core.UnitTests\Elsa.Workflows.Core.UnitTests.csproj" />
+      <ProjectReference Include="..\..\..\bundles\Elsa.AllInOne.Web\Elsa.AllInOne.Web.csproj" />
+      <ProjectReference Include="..\..\..\bundles\Elsa\Elsa.csproj" />
+      <ProjectReference Include="..\..\..\clients\Elsa.Api.Client\Elsa.Api.Client.csproj" />
+      <ProjectReference Include="..\..\..\common\Elsa.Api.Common\Elsa.Api.Common.csproj" />
+      <ProjectReference Include="..\..\..\common\Elsa.DropIns.Core\Elsa.DropIns.Core.csproj" />
+      <ProjectReference Include="..\..\..\common\Elsa.DropIns\Elsa.DropIns.csproj" />
+      <ProjectReference Include="..\..\..\common\Elsa.Features\Elsa.Features.csproj" />
+      <ProjectReference Include="..\..\..\common\Elsa.Mediator\Elsa.Mediator.csproj" />
+      <ProjectReference Include="..\..\..\common\Elsa.Testing.Shared\Elsa.Testing.Shared.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Alterations.BackgroundRunner\Elsa.Alterations.BackgroundRunner.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Alterations.Core\Elsa.Alterations.Core.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Alterations\Elsa.Alterations.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.AzureServiceBus\Elsa.AzureServiceBus.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Common\Elsa.Common.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Dapper.Migrations\Elsa.Dapper.Migrations.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Dapper\Elsa.Dapper.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Dsl\Elsa.Dsl.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Elasticsearch\Elsa.Elasticsearch.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Email\Elsa.Email.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.EntityFrameworkCore.Common\Elsa.EntityFrameworkCore.Common.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.EntityFrameworkCore.MySql\Elsa.EntityFrameworkCore.MySql.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.EntityFrameworkCore.PostgreSql\Elsa.EntityFrameworkCore.PostgreSql.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.EntityFrameworkCore.Sqlite\Elsa.EntityFrameworkCore.Sqlite.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.EntityFrameworkCore.SqlServer\Elsa.EntityFrameworkCore.SqlServer.csproj" />
+        <ProjectReference Include="..\..\..\modules\Elsa.EntityFrameworkCore\Elsa.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\..\modules\Elsa.Environments\Elsa.Environments.csproj" />
+        <ProjectReference Include="..\..\..\modules\Elsa.Expressions\Elsa.Expressions.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Http\Elsa.Http.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Identity\Elsa.Identity.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.JavaScript\Elsa.JavaScript.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Labels\Elsa.Labels.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Liquid\Elsa.Liquid.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.ProtoActor.Cluster.AzureContainerApps\Elsa.ProtoActor.Cluster.AzureContainerApps.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.ProtoActor\Elsa.ProtoActor.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Quartz\Elsa.Quartz.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.SasTokens\Elsa.SasTokens.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Scheduling\Elsa.Scheduling.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Telnyx\Elsa.Telnyx.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Webhooks\Elsa.Webhooks.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.WorkflowContexts\Elsa.WorkflowContexts.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.WorkflowProviders.BlobStorage\Elsa.WorkflowProviders.BlobStorage.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Workflows.Api\Elsa.Workflows.Api.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Workflows.Designer\Elsa.Workflows.Designer.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Workflows.Management\Elsa.Workflows.Management.csproj" />
+      <ProjectReference Include="..\..\..\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj" />
+    </ItemGroup>
+
+</Project>

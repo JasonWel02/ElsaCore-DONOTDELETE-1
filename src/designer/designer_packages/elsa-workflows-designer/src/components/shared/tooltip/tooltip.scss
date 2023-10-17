@@ -1,0 +1,10 @@
+.tooltip-container {
+    .tooltip {
+        visibility: hidden;
+    }
+    &:hover {
+        .tooltip {
+            visibility: visible;
+        }
+    }
+}
